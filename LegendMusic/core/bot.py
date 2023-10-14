@@ -58,8 +58,4 @@ class LegendBot(Client):
     BotCommand("shuffle", "Randomly shuffles the queued playlist."),
     BotCommand("seek", "Seek the stream to given duration (in seconds)"),
     BotCommand("seekback", "Seek back the stream to given duration (in seconds)")])
-        except:
-            LOGGER(__name__).error(
-                "Bot has failed to access the log Group. Make sure that you have added your bot to your log channel and promoted as admin!"
-            )
-            sys.exit()
+    
