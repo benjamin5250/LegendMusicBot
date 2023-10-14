@@ -24,7 +24,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("LegendMusic").error(
-            "WTF Baby ! Atleast add a pyrogram string, How Cheap..."
+            "Pyrogram String ထည့်ရန်လိုအပ်ပါသည်။"
         )
         return
     if (
@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("LegendMusic").warning(
-            "Spotify Client Id & Secret not added, Chutiya Saala ek itni simple cheej nahi laa paaya."
+            "Spotify ဖွင့်မရပါ"
         )
     try:
         users = await get_gbanned()
@@ -47,7 +47,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("LegendMusic.plugins" + all_module)
     LOGGER("LegendMusic.plugins").info(
-        "Necessary Modules Imported Successfully."
+        "လိုအပ်သောဖိုင်များ ကူးယူပြီးပါပြီ။"
     )
     await userbot.start()
     await Legend.start()
@@ -57,13 +57,13 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("LegendMusic").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
+            "[ERROR] - \n\nVC အရင်ဖွင့်ပါ။"
         )
         sys.exit()
     except:
         pass
     await Legend.decorators()
-    LOGGER("LegendMusic").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @CRAZYxROMEO")
+    LOGGER("LegendMusic").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @PeakyBlinderz")
     await idle()
 
 
