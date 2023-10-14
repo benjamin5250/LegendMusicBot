@@ -277,7 +277,7 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**➻ ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ғᴏᴜɴᴅ**\n\nᴩʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ."
+                    "**➻ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ မဖွင့်ထားပါ**\n\n ᴠɪᴅᴇᴏᴄʜᴀᴛ ဖွင့်ထားရန်လိုအပ်ပါသည်။"
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
