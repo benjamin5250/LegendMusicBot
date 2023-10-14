@@ -44,7 +44,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Gettings Assistants Info...")
+        LOGGER(__name__).info(f"Assistants အချက်အလက်များရယူနေပါသည်...")
         if config.STRING1:
             await self.one.start()
             try:
