@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "9469653",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "de5a7ff61df4b3223426b6feb016c71a",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,7 +30,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's Token From Botfather",
-        "value": "",
+        "value": "6333018797:AAFOtTmW6Lrni6tHjJsrckE3nvrc2F3tjzo",
         "required": true
       },
       "DURATION_LIMIT_MIN": {
@@ -40,7 +40,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://aung1501:thuyein001@cluster0.ncytmk1.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "AUTO_DOWNLOADS_CLEAR": {
@@ -65,12 +65,12 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5048100752",
+        "value": "5068330054 6660667350",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQCQftUAZyMe1wtsX9ZawmBiR-y9CL3RZYkTenOlx8_5ZAXJKQa6NPKMyyK5PuuggaCj1m25iEgoy5oCHN4I5PkeZGshaPQHv35Ng3ZWcyqi5aTO1qvRT1kf8VO3ucUThgtZ7jjBcql0GyMHs7mWvf7xH0mOfHsKcJ-44ptyaep-I3yRC75dMK5WkPrFLaWeABFZcnZ8_0eQx2RNbyDjZgo0ZyOyBkoSMMRnLovD4kK700pw-YKlgRO3AMeJ-dF8rej6b_3xp1763UzgkgFlUlmrJfXMQfSjkFJ2YO4_wyVBQd1YjSuRSPUvRG4mE_PphwJIjkxsoq7VwlWJqfjtsTQTUsZXVgAAAAGNQo9wAA",
         "required": true
       },
       "PING_IMG_URL": {
@@ -95,17 +95,17 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1001768132327",
         "required": true
       },
       "SUPPORT_GROUP": {
         "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
-        "value": "https://t.me/YaaroKiMehfil_YKM",
+        "value": "https://t.me/Khoon_Atta",
         "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "https://t.me/OYEE_JAANU",
+        "value": "https://t.me/PeakyBlinders",
         "required": true
       }
     },
