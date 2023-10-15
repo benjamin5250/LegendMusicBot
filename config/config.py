@@ -22,7 +22,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "900")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001768132327"))
+LOG_GROUP_ID = int("-1001768132327")
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴋʜᴏᴏɴ ✘ ᴍᴜsɪᴄ˼")
 
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-Alisha/LegendMusicBot",
+    "https://github.com/benjamin5250/LegendMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
